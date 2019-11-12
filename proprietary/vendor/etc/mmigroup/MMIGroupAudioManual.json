@@ -1,0 +1,157 @@
+{
+  "itemConfig": [
+    {
+      "showName": "SMARTPA",
+      "action": "com.mmigroup.action.audioloop.SMARTPA",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": false,
+        "audioConfig": [
+          "mmitest=on;spk_calibrate=cirrus"
+        ]
+      }
+    },
+    {
+      "showName": "L_Speaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_left"
+        ]
+      }
+    },
+    {
+      "showName": "R_Speaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker_right"
+        ]
+      }
+    },
+    {
+      "showName": "Speaker",
+      "action": "com.mmigroup.action.audioloop.AUDIOPLAYER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 1.0,
+        "is_show_list": true,
+        "audioConfig": [
+          "mmitest=on;outputdevice=speaker"
+        ]
+      }
+    },
+    {
+      "showName": "HeadSet",
+      "action": "com.mmigroup.action.HEADPHONE",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.2,
+        "is_test_type_c": false,
+        "keyCode": [
+          "HEADSETHOOK"
+        ]
+      }
+    },
+    {
+      "showName": "HsMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "mmitest=on;inputdevice=hsmic;",
+          "mmitest=on;outputdevice=headphone"
+        ],
+        "markedWords":"hsmictoheadphone_speakernotify"
+      }
+    },
+    {
+      "showName": "MainMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_MIC_CHOOSE=1;",
+          "mmitest=on;inputdevice=mainmic;outputdevice=headphone"
+        ],
+        "markedWords":"mainmictoHeadphone_speakernotify"
+      }
+    },
+    {
+      "showName": "SubMicToHeadPhone",
+      "action": "com.mmigroup.action.audioloop.AUDIOLOOPBACK",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "volume_rate": 0.5,
+        "loop_type": "manual_loop",
+        "hasHeadPhone": true,
+        "audioConfig": [
+          "SET_MIC_CHOOSE=2;",
+          "mmitest=on;inputdevice=submic;outputdevice=headphone"
+        ],
+        "markedWords":"submictoHeadphone_speakernotify"
+      }
+    },
+    {
+      "showName": "FM",
+      "action": "com.mmigroup.action.FM",
+      "support": true,
+      "automatic": false,
+      "support_autoTest_autopass": false,
+      "paramconfig": {
+        "volume_rate": 0.9,
+        "default_freguency": 87500,
+        "fm_freguency": [
+          87500,
+          91600,
+          95500,
+          97700,
+          98800,
+          101100,
+          103600,
+          104300,
+          107700
+        ]
+      }
+    },
+    {
+      "showName": "Vibrator",
+      "action": "com.mmigroup.action.VIBRATER",
+      "support": true,
+      "automatic": false,
+      "paramconfig": {
+        "is_auto_vibrate": false,
+        "shortInterval": [
+          200,
+          200
+        ],
+        "longInterval": [
+          500,
+          2000
+        ]
+      }
+    }
+  ]
+}

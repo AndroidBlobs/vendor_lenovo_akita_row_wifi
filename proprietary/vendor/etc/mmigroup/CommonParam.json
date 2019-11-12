@@ -1,0 +1,595 @@
+{
+  "Akita_PRC_LTE": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": false,
+      "com.mmigroup.radiosupport.WCDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false,
+      "com.mmigroup.radiosupport.TDD": false,
+      "com.mmigroup.radiosupport.FDD": false,
+      "com.mmigroup.radiosupport.LENOVO_BT": true
+    },
+    "systemConfig": {
+      "IMEI": true
+    },
+    "itemConfig": {
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeaker": {
+        "support": true
+      },
+      "Vibrator": {
+        "support": true
+      },
+      "Sar": {
+        "support": false
+      }
+    }
+  },
+  "Akita_ROW_LTE": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": false,
+      "com.mmigroup.radiosupport.WCDMA": false,
+      "com.mmigroup.radiosupport.TDD": false,
+      "com.mmigroup.radiosupport.FDD": false,
+      "com.mmigroup.radiosupport.LENOVO_BT": true
+    },
+    "systemConfig": {
+      "IMEI": true
+    },
+    "itemConfig": {
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeaker": {
+        "support": true
+      },
+      "Vibrator": {
+        "support": true
+      }
+    }
+  },
+  "Akita_WIFI": {
+    "systemConfig": {
+      "Modem": false
+    },
+    "itemConfig": {
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "MainSIMCard": {
+        "support": false
+      },
+      "HsMicToSpeaker": {
+        "support": true
+      },
+      "Proximity": {
+        "support": false
+      },
+      "Proximity_st": {
+        "support": false
+      },
+      "Proximity_C": {
+        "support": false
+      },
+      "Proximity_far_mode": {
+        "support": false
+      },
+      "Proximity_near_mode": {
+        "support": false
+      },
+      "Optical": {
+        "support": false
+      },
+      "Optical_c": {
+        "support": false
+      }
+    }
+  },
+  "Anna_ROW_LTE": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": false,
+      "com.mmigroup.radiosupport.WCDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false,
+      "com.mmigroup.radiosupport.TDD": false,
+      "com.mmigroup.radiosupport.FDD": false,
+      "com.mmigroup.radiosupport.LENOVO_BT": true
+    },
+    "systemConfig": {
+      "IMEI": true
+    },
+    "itemConfig": {
+      "L_Speaker": {
+        "support": true
+      },
+      "R_Speaker": {
+        "support": true
+      },
+      "Speaker": {
+        "support": false
+      },
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "SubMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeakerLeft": {
+        "support": true
+      },
+      "HsMicToSpeakerRight": {
+        "support": true
+      },
+      "PogoPinBattery": {
+        "support": true
+      },
+      "Vibrator": {
+        "support": true
+      }
+    }
+  },
+  "Anna_WIFI": {
+    "systemConfig": {
+      "Modem": false
+    },
+    "itemConfig": {
+      "L_Speaker": {
+        "support": true
+      },
+      "R_Speaker": {
+        "support": true
+      },
+      "Speaker": {
+        "support": false
+      },
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "SubMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeakerLeft": {
+        "support": true
+      },
+      "HsMicToSpeakerRight": {
+        "support": true
+      },
+      "MainSIMCard": {
+        "support": false
+      },
+      "PogoPinBattery": {
+        "support": true
+      },
+      "Proximity_far_mode": {
+        "support": false
+      },
+      "Proximity_near_mode": {
+        "support": false
+      }
+    }
+  },
+  "Anna_ADC_WIFI": {
+    "systemConfig": {
+      "Modem": false
+    },
+    "itemConfig": {
+      "L_Speaker": {
+        "support": true
+      },
+      "R_Speaker": {
+        "support": true
+      },
+      "Speaker": {
+        "support": false
+      },
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "SubMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeakerLeft": {
+        "support": true
+      },
+      "HsMicToSpeakerRight": {
+        "support": true
+      },
+      "MainSIMCard": {
+        "support": false
+      },
+      "PogoPinBattery": {
+        "support": true
+      },
+      "Proximity_far_mode": {
+        "support": false
+      },
+      "Proximity_near_mode": {
+        "support": false
+      }
+    }
+  },
+  "Aaron_PRC_LTE": {
+    "call": {
+      "com.mmigroup.radiosupport.GSM": false,
+      "com.mmigroup.radiosupport.WCDMA": false,
+      "com.mmigroup.radiosupport.TDCDMA": false,
+      "com.mmigroup.radiosupport.TDD": false,
+      "com.mmigroup.radiosupport.FDD": false,
+      "com.mmigroup.radiosupport.LENOVO_BT": true
+    },
+    "systemConfig": {
+      "IMEI": true,
+      "MEID": true,
+      "Widewine": true
+    },
+    "itemConfig": {
+      "Vibrator": {
+        "support": true
+      },
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeakerLeft": {
+        "support": false
+      },
+      "HsMicToSpeakerRight": {
+        "support": false
+      },
+      "HsMicToSpeaker": {
+        "support": true
+      },
+      "Flashlight": {
+        "support": true
+      },
+      "Sar": {
+        "support": false
+      }
+    }
+  },
+  "Aaron_WIFI": {
+    "systemConfig": {
+      "Modem": false,
+      "Widewine": true
+    },
+    "itemConfig": {
+      "Vibrator": {
+        "support": true
+      },
+      "MainMicToHeadPhone": {
+        "support": true
+      },
+      "HsMicToSpeakerLeft": {
+        "support": false
+      },
+      "HsMicToSpeakerRight": {
+        "support": false
+      },
+      "HsMicToSpeaker": {
+        "support": true
+      },
+      "MainSIMCard": {
+        "support": false
+      },
+      "Flashlight": {
+        "support": true
+      },
+      "Proximity_far_mode": {
+        "support": false
+      },
+      "Proximity_near_mode": {
+        "support": false
+      }
+    }
+  },
+  "call": {
+    "com.mmigroup.radiosupport.GSM": false,
+    "com.mmigroup.radiosupport.CDMA": false,
+    "com.mmigroup.radiosupport.TDCDMA": false,
+    "com.mmigroup.radiosupport.WCDMA": false,
+    "com.mmigroup.radiosupport.TDD": false,
+    "com.mmigroup.radiosupport.FDD": false,
+    "com.mmigroup.radiosupport.LTE": false
+  },
+  "mmigroupConfig": {
+    "com.mmigroup.support.statusbar": true,
+    "factory_version_support_desktop_icon": true,
+    "screen_orientation_is_landscape": false,
+    "support_icon": "factory_only",
+    "support_runin": true,
+    "hideDownloadModeUi": true,
+    "bootStartUp": false,
+    "LenovoLog": true
+  },
+  "systemConfig": {
+    "buildNumber": true,
+    "basebandVersion": true,
+    "kernelVersion": true,
+    "SW_Ver": true,
+    "IMEI": false,
+    "MEID": false,
+    "SN": true,
+    "PhoneSN": true,
+    "BoardID": true,
+    "RPMB_provisioned": true,
+    "Secureboot": false,
+    "MMIGroupVersion": true,
+    "FactoryInterfaceVersion": true,
+    "FactoryInterfaceHALVersion": true,
+    "Attestation": true,
+    "Widewine": false,
+    "EFS": false,
+    "FactoryTestMode": false,
+    "CameraEfuseID": false,
+    "DualCameCali": false,
+    "DualCameVerify": false,
+    "FlashlightCali": false
+  },
+  "itemConfig": {
+    "MainMicToHeadPhone": {
+      "support": true
+    },
+    "SubMicToHeadPhone": {
+      "support": false
+    },
+    "HsMicToSpeakerLeft": {
+      "support": false
+    },
+    "HsMicToSpeakerRight": {
+      "support": false
+    },
+    "L_Speaker": {
+      "support": false
+    },
+    "R_Speaker": {
+      "support": false
+    },
+    "Speaker": {
+      "support": true
+    },
+    "FM": {
+      "support": true,
+      "oldAct": [
+        "FM",
+        "fm_play"
+      ]
+    },
+    "HeadSet": {
+      "support": true
+    },
+    "FrontCamera": {
+      "support": true
+    },
+    "MainCamera": {
+      "support": true
+    },
+    "Flashlight": {
+      "support": false
+    },
+    "VersionInfo": {
+      "support": true
+    },
+    "KeyPad": {
+      "support": true
+    },
+    "TouchPal": {
+      "support": true
+    },
+    "TpOpenShort": {
+      "support": true,
+      "oldAct": [
+        "TpOpenShort",
+        "tp_test"
+      ]
+    },
+    "LCD": {
+      "support": true
+    },
+    "LCD_R": {
+      "support": true
+    },
+    "LCD_G": {
+      "support": true
+    },
+    "LCD_B": {
+      "support": true
+    },
+    "LCD_W": {
+      "support": true
+    },
+    "LCD_BL": {
+      "support": true
+    },
+    "LCD_B_W": {
+      "support": true
+    },
+    "LCD_W_B": {
+      "support": true
+    },
+    "Backlight": {
+      "support": true,
+      "oldAct": [
+        "LCD_BACKLIGHT_ON",
+        "LCD_BACKLIGHT_HALF",
+        "LCD_BACKLIGHT"
+      ]
+    },
+    "Backlight_bright": {
+      "support": true
+    },
+    "Backlight_half": {
+      "support": true
+    },
+    "Backlight_dark": {
+      "support": true
+    },
+    "Vibrator": {
+      "support": false
+    },
+    "OTG": {
+      "support": true
+    },
+    "RTC": {
+      "support": true
+    },
+    "LED": {
+      "support": true
+    },
+    "LED_R": {
+      "support": true
+    },
+    "LED_G": {
+      "support": true
+    },
+    "LED_B": {
+      "support": true
+    },
+    "LED_RGB": {
+      "support": true
+    },
+    "Accelerometer": {
+      "support": true
+    },
+    "Accelerometer_C": {
+      "support": true
+    },
+    "Accelerometer_MMI": {
+      "support": true
+    },
+    "Proximity": {
+      "support": true
+    },
+    "Proximity_st": {
+      "support": true
+    },
+    "Proximity_C": {
+      "support": true
+    },
+    "Optical": {
+      "support": true
+    },
+    "Optical_c": {
+      "support": true
+    },
+    "SdCard": {
+      "support": true
+    },
+    "MainSIMCard": {
+      "support": true
+    },
+    "Wlan": {
+      "support": true
+    },
+    "WlanAP": {
+      "support": false
+    },
+    "WlanAddress": {
+      "support": false
+    },
+    "Bluetooth": {
+      "support": true
+    },
+    "BluetoothAddress": {
+      "support": false
+    },
+    "BluetoothDevice": {
+      "support": false
+    },
+    "GPS": {
+      "support": true
+    },
+    "Charge": {
+      "support": false
+    },
+    "Battery": {
+      "support": true
+    },
+    "FrontFlashLight": {
+      "support": false
+    },
+    "KeyPadLight": {
+      "support": false
+    },
+    "DualSIMCard": {
+      "support": false
+    },
+    "MainCamera": {
+      "support": true,
+      "oldAct": [
+        "CAMERA_BACK"
+      ]
+    },
+    "FrontCamera": {
+      "support": true,
+      "oldAct": [
+        "CAMERA_FRONT"
+      ]
+    },
+    "TouchPanel": {
+      "support": true
+    },
+    "MultiTouch": {
+      "support": true
+    },
+    "NFC": {
+      "support": false
+    },
+    "Magnetic": {
+      "support": false
+    },
+    "Gyroscope": {
+      "support": false
+    },
+    "Hall": {
+      "support": false
+    },
+    "Sar": {
+      "support": true
+    },
+    "TP_LockDown": {
+      "support": false
+    },
+    "fingerprint": {
+      "support": false
+    },
+    "Pressure": {
+      "support": false
+    },
+    "PogoPinBattery": {
+      "support": false
+    },
+    "Receiver": {
+      "support": false
+    },
+    "MainMicToReceiver": {
+      "support": false
+    },
+    "HsMicToReceiver": {
+      "support": false
+    },
+    "SubMicToReceiver": {
+      "support": false
+    },
+    "HsMicToSpeaker": {
+      "support": false
+    },
+    "SubSIMCard": {
+      "support": false
+    },
+    "CpuId": {
+      "support": false
+    },
+    "EmmcId": {
+      "support": false
+    },
+    "Sec_Dat": {
+      "support": true
+    },
+    "Proximity_near_mode": {
+      "support": true
+    },
+    "Proximity_far_mode": {
+      "support": true
+    }
+  }
+}
+
